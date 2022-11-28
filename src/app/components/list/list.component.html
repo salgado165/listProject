@@ -1,30 +1,11 @@
 <div class="container">
   <ul class="list-group">
     <a
-      href="#"
-      class="list-group-item list-group-item-action list-group-item-light"
-      >Create Angular Project</a
-    >
-    <a
-      href="#"
-      class="list-group-item list-group-item-action list-group-item-light"
-      >Learn Bootstrap</a
-    >
-    <a
-      href="#"
-      class="list-group-item list-group-item-action list-group-item-light"
-      >Get Angular Router Information</a
-    >
-    <a
-      href="#"
-      class="list-group-item list-group-item-action list-group-item-light"
-      >Implement Router</a
-    >
-    <a
-      href="#"
-      class="list-group-item list-group-item-action list-group-item-light"
-      >Improve Bootstrap Implementation</a
-    >
+    *ngFor="let i of items"
+    href="#"
+    class="list-group-item list-group-item-action list-group-item-light"
+    >{{i.description}}</a
+  >
   </ul>
   <a routerLink="/" class="btn btn-primary">Go Home</a>
 </div>
