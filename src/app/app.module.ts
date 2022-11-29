@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListComponent } from './components/list/list.component';
 import { HomeComponent } from './components/home/home.component';
+import { TopNavBarComponent } from './components/top-nav-bar/top-nav-bar.component';
+import { FootBarComponent } from './components/foot-bar/foot-bar.component';
 
 const routes : Routes =[
   {path: "", component: HomeComponent},
@@ -16,7 +18,9 @@ const routes : Routes =[
   declarations: [
     AppComponent,
     ListComponent,
-    HomeComponent
+    HomeComponent,
+    TopNavBarComponent,
+    FootBarComponent
   ],
   imports: [
     BrowserModule,
