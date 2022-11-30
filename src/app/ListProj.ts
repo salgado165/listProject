@@ -1,4 +1,4 @@
-export default interface List {
+export interface ListProj {
     id: number,
     title: string,
     description : string,

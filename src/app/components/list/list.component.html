@@ -1,11 +1,11 @@
 <div class="container">
   <ul class="list-group">
-    <a
-    *ngFor="let i of items"
+    <span
+    *ngFor="let i of allItems"
     href="#"
     class="list-group-item list-group-item-action list-group-item-light"
-    >{{i.title}}</a
-  >
+    >{{i.title}}</span
+  >  
   </ul>
-  <a routerLink="/" class="btn btn-primary">Go Home</a>
+  <span routerLink="/" class="btn btn-primary">Go Home</span>
 </div>
