@@ -4,4 +4,10 @@ ul{
 
 .container{
     text-align: center;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.card{
+    margin-top: 20px;
 }

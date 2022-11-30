@@ -1,11 +1,11 @@
-<div class="container">
-  <ul class="list-group">
-    <span
-    *ngFor="let i of allItems"
-    href="#"
-    class="list-group-item list-group-item-action list-group-item-light"
-    >{{i.title}}</span
-  >  
-  </ul>
-  <span routerLink="/" class="btn btn-primary">Go Home</span>
+<div class="container">  
+<div *ngFor="let i of allItems" class="card" >
+  <div class="card-header">
+    <h5 class="card-title">{{i.title}}</h5>
+  </div>
+  <div class="card-body">    
+    <p class="card-text">{{i.description}}</p>    
+  </div>
+</div>
+<a routerLink="/" class="btn btn-light btnHome">Inicio</a>
 </div>
